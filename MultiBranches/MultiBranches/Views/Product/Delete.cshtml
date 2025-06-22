@@ -1,0 +1,19 @@
+﻿@model MultiBranches.Models.ProductModel
+
+@{
+    ViewData["Title"] = "حذف منتج";
+}
+
+<h2>هل أنت متأكد من حذف هذا المنتج؟</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p>السعر: @Model.Price</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="ProductId" />
+    <button type="submit" class="btn btn-danger">✔ تأكيد الحذف</button>
+    <a asp-action="Index" class="btn btn-secondary">إلغاء</a>
+</form>
+

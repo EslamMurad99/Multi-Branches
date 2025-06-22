@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BranchProductModel>
+@{
+    ViewData["Title"] = "الصفحة الرئيسية";
+    var branches = ViewBag.TbBranches as List<BranchModel>;
+    var selectedBranchId = ViewBag.SelectedBranchId as int?;
+}
+
+<h2>📍 اختر الفرع:</h2>
+<form method="get">
+<select name="branchId" onchange="this.form.submit()">
+    @foreach (var branch in branches)
+    {
+            <option value="@branch.BranchId">@branch.Name</option>
+        @* <a asp-action="Index" asp-route-branchId="@branch.BranchId"
+           class="btn btn-outline-primary @(selectedBranchId == branch.BranchId ? "active" : "")">
+            @branch.Name
+        </a> *@
+    }
+</select>
+</form>
+<hr />
+
+<h3>🛍️ منتجات الفرع</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>المنتج</th>
+            <th>السعر</th>
+            <th>الكمية المتاحة</th>
+            <th>الإجراء</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Product.Price</td>
+                <td>@item.Quantity</td>
+                <td>
+                    @*asp-controller="Home" asp-action="Index"*@
+                    <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <input type="hidden" name="branchId" value="@selectedBranchId" />
+                        <a asp-controller="Stripe" asp-action="Payment"> <button class="btn btn-primary btn-sm">➕ إضافة للسلة</button> </a>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="mt-3">
+    <a asp-controller="Cart" asp-action="Index" class="btn btn-outline-success">عرض سلة الشراء 🛒</a>
+    <a asp-controller="Cart" asp-action="CheckoutRedirect" class="btn btn-warning">💳 الدفع الآن</a>
+</div>
+

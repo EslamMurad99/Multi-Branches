@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Works\\MultiBranches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\controllers\\branchproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\controllers\\branchproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\views\\branch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\views\\branch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|d:\\works\\multibranches\\multibranches\\views\\branch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88D138E-E309-48E9-AAA5-6C0B3C02333E}|MultiBranches\\MultiBranches.csproj|solutionrelative:multibranches\\views\\branch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Program.cs",
+              "RelativeDocumentMoniker": "MultiBranches\\Program.cs",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Program.cs*",
+              "RelativeToolTip": "MultiBranches\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:26:07.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\appsettings.json",
+              "RelativeDocumentMoniker": "MultiBranches\\appsettings.json",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\appsettings.json",
+              "RelativeToolTip": "MultiBranches\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T22:43:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MultiBranches\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MultiBranches\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:30:54.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BranchProductController.cs",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\BranchProductController.cs",
+              "RelativeDocumentMoniker": "MultiBranches\\Controllers\\BranchProductController.cs",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\BranchProductController.cs",
+              "RelativeToolTip": "MultiBranches\\Controllers\\BranchProductController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:26:02.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MultiBranches\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MultiBranches\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA7wEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:18:10.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "MultiBranches\\Controllers\\BranchController.cs",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "MultiBranches\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwEgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:27:17.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Views\\Branch\\Index.cshtml",
+              "RelativeDocumentMoniker": "MultiBranches\\Views\\Branch\\Index.cshtml",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Views\\Branch\\Index.cshtml",
+              "RelativeToolTip": "MultiBranches\\Views\\Branch\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:26:02.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Works\\MultiBranches\\MultiBranches\\Views\\Branch\\Create.cshtml",
+              "RelativeDocumentMoniker": "MultiBranches\\Views\\Branch\\Create.cshtml",
+              "ToolTip": "D:\\Works\\MultiBranches\\MultiBranches\\Views\\Branch\\Create.cshtml",
+              "RelativeToolTip": "MultiBranches\\Views\\Branch\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:21:47.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

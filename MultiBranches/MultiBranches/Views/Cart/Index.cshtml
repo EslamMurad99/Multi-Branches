@@ -1,0 +1,48 @@
+﻿@model List<CartItem>
+@{
+    ViewData["Title"] = "سلة الشراء";
+    var total = Model.Sum(i => i.Price * i.Quantity);
+}
+
+<h2>🛒 سلة الشراء</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>المنتج</th>
+            <th>السعر</th>
+            <th>الكمية</th>
+            <th>الإجمالي</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>@(item.Price* item.Quantity)</td>
+                <td>
+                    <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId" class="btn btn-danger btn-sm">حذف</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h4>الإجمالي الكلي: @total</h4>
+
+<form asp-action="Checkout" method="post">
+    <button class="btn btn-success">✅ تأكيد الدفع</button>
+</form>

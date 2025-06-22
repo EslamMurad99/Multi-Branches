@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MultiBranches.Models.BranchModel>
+
+<h2>قائمة الفروع</h2>
+
+<a asp-action="Create" class="btn btn-primary">إضافة فرع جديد</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>الاسم</th>
+            <th>العنوان</th>
+          @*   <th>إجراءات</th> *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var branch in Model)
+        {
+            <tr>
+                <td>@branch.Name</td>
+                <td>@branch.Location</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@branch.BranchId" class="btn btn-primary">تعديل</a> |
+                    <a asp-action="Delete" asp-route-id="@branch.BranchId" class="btn btn-primary">حذف</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
